@@ -1,20 +1,14 @@
 {
-  "name": "mcp-shervin-server",
+  "name": "mcp-server",
   "version": "1.0.0",
-  "description": "Simple MCP Server for Shervin - No keys included",
-  "main": "dist/index.js",
+  "description": "Personal MCP Server for Shervin - AI and Cloud Services Integration",
+  "main": "src/index.js",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.4.0"
+    "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240117.0",
-    "typescript": "^5.3.3",
     "wrangler": "^3.24.0"
   }
 }
