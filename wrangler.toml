@@ -1,0 +1,14 @@
+name = "shervinmcp"
+main = "dist/index.js"
+compatibility_date = "2024-01-01"
+
+# برای اجرا روی Cloudflare
+# پس از نصب wrangler:
+# wrangler login
+# wrangler deploy
+
+# برای اضافه کردن کلیدها:
+# wrangler secret put MISTRAL_API_KEY
+# wrangler secret put OPENAI_API_KEY
+# wrangler secret put GEMINI_API_KEY
+# و بقیه کلیدها...
